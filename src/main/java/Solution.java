@@ -56,7 +56,7 @@ public class Solution {
         int x = a;
         x += 4;
         x *= 3;
-        x -= a
+        x -= a;
 
         return x;
     }
