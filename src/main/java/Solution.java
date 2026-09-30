@@ -32,7 +32,7 @@ public class Solution {
 
     public double divide (int a, int b){
         // replace 0.0  with your implementation
-        return a/b;
+        return (double) a/b;
     }
 
     /**
@@ -40,7 +40,7 @@ public class Solution {
      */
     public String concatenate (String word1, String word2){
         // replace ""  with your implementation
-        return "word1" + "word2";
+        return word1 + "" + word2;
     }
 
 
@@ -57,7 +57,7 @@ public class Solution {
         x += 4;
         x *= 3;
         x -= a;
-
+        
         return x;
     }
 
